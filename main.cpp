@@ -7,8 +7,6 @@
 //
 //  Returns a list of factorials.
 
-//
-
 // PREPROCESSOR
 #include <iostream>
 #include <cstdlib>
@@ -26,6 +24,7 @@ long int func01(long int x)
     for(y = 1; y < 16; y++)
     {
         x = x*y;
+        cout << y << '\n';
         cout << x << '\n';
         cout << '\n';
     }
